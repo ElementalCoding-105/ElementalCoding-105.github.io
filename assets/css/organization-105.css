@@ -85,3 +85,15 @@ h1, h2 {
 .topnav a:hover {
   background-color: #30c032;
 }
+.projects {
+  left:50px;
+  right:50px;
+}
+.projects-card {
+  height:300px;
+  width:150px;
+}
+.projects-image {
+  width:150px;
+  height:100px;
+}
