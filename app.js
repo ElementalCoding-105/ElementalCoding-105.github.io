@@ -11,10 +11,16 @@ app.get("/", function (req, res) {
   // eslint-disable-next-line no-undef
   res.sendFile(path.join(__dirname + "/public/index.html"));
 });
+app.get("/assets/*", function (req, res) {
+  // eslint-disable-next-line no-undef
+  res.sendFile(path.join(__dirname + "/public/401.html"));
+});
 app.get('/hello', function (req, res) {
   res.status(200).json({
     message: "Hello World!"
   });
 });
-
+app.get('*', function(req, res){
+  res.sendFile(path.join(__dirname + "/public/404.html"));
+});
 module.exports = { app };
