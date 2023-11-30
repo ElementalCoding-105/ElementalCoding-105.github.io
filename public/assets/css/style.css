@@ -1,0 +1,36 @@
+@import url("themes.css");
+:root {
+  /*Background-color*/
+  --decoration: #00a9e2; /* decoration color */
+  --font-family: "Consolas", monospace;
+  --font-family2nd: "Vollkorn", serif;
+  --font-family3rd: "Roboto", serif;
+  --secondary-font-color: #fff;
+  --font-size: 16px;
+  --elementbackground: #00a9e2; /* decoration color 2 */
+  --theme: #111; /* the main background of pages */
+  --border:solid 1px white;
+  --font-color2nd: white;
+  --danyang-font-family: "Google Sans";
+  --main-border-color: rebeccapurple; 
+  --main-gradient: linear-gradient(#555, #111);
+  --mainmenucolor: #262626; /* other element color (I.E. buttons, forms, text areas. */
+  --font-color: #fff;
+  --theme2: #27262b;
+  --contrast:white;
+  --main-border-color2: white;
+  --sub-font-color: lightgrey;
+  --r-gradient: radial-gradient(circle, #555, #111);;
+  --bordercolor: white;
+  margin:0px;
+  --success: #04AA6D;
+  --error:#f44336;
+}
+
+body, html, head {
+    background-color: var(--theme2);
+    color:var(--font-color);
+}
+hr {
+    border:var(--border);
+}
