@@ -11,7 +11,7 @@ app.get("/", function (req, res) {
   // eslint-disable-next-line no-undef
   res.sendFile(path.join(__dirname + "/public/index.html"));
 });
-app.get("/docs/*", function (req, res) {
+app.get("/docs/", function (req, res) {
   // eslint-disable-next-line no-undef
   res.sendFile(path.join(__dirname + "/public/docs/index.html"));
 });
